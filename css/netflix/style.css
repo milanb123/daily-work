@@ -1,7 +1,110 @@
-.banner {
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.logo {
     display: flex;
+    width: 200px;
+    margin: px;
+
+}
+
+.main {
+    background-image: url("bg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
     position: relative;
-    overflow: hidden;
-    height: 100%;
-    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: end;
+    margin-right: 60PX;
+    padding: 20PX;
+    gap: 20PX;
+}
+
+.btn {
+    border: 2px #0000008f;
+    width: 80px;
+    background-color: #0000008f;
+    color: white;
+}
+
+.btn-b {
+    width: 80px;
+    color: white;
+    background-color: red;
+    border-color: red;
+    border-radius: 8px;
+    height: 30px;
+    font-weight: bolder;
+
+
+}
+
+H1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+
+}
+
+.INFO {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+H2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+H3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.btn-c {
+    width: 100px;
+    height: 42px;
+    background-color: red;
+    border-radius: 8px;
+    border-color: red;
+}
+
+.INFO {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 20%;
+    top: 35%;
+    font-weight: bolder;
+    color: white;
+
+}
+
+.email {
+    border: 2px #0000008f;
+    padding: 10px 50px;
+    width: auto;
+    height: 23px;
+    text-align: left;
+    border-radius: 8px;
+    background-color: #0000008f;
 }
