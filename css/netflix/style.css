@@ -9,20 +9,25 @@ body {
 }
 
 .logo {
+    position: absolute;
+    top: 23px;
+    left: 163px;
     display: flex;
-    width: 200px;
-    margin: px;
+    width: 155px;
+
 
 }
 
 .main {
-    background-image: url("bg.jpg");
+    background: linear-gradient(rgba(39, 41, 41, 0.5), rgba(5, 5, 5, 0.7)), url(bg.jpg);
+    /* background-image: url("bg.jpg"); */
     background-position: center center;
     background-size: max(1200px, 100vw);
     background-repeat: no-repeat;
     height: 644px;
     position: relative;
 }
+
 
 .nav {
     display: flex;
@@ -80,11 +85,21 @@ H3 {
 }
 
 .btn-c {
-    width: 100px;
-    height: 42px;
-    background-color: red;
-    border-radius: 8px;
-    border-color: red;
+    display: flex;
+    gap: 20px;
+}
+
+.btn-ca {
+
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 22%;
+    min-height: 3.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9px;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
 }
 
 .INFO {
@@ -100,11 +115,56 @@ H3 {
 }
 
 .email {
-    border: 2px #0000008f;
-    padding: 10px 50px;
-    width: auto;
-    height: 23px;
+    display: flex;
+    position: absolute;
+    right: 50%;
+    border: 2px solid white;
+    padding: 15px 50px;
+    width: 33%;
+    min-height: 1.5rem;
     text-align: left;
     border-radius: 8px;
     background-color: #0000008f;
+}
+
+.borderone {
+    right: -263px;
+    width: 215%;
+    height: 0.5rem;
+    position: absolute;
+    bottom: -15.5rem;
+    background-color: rgb(35, 35, 35);
+}
+
+.sectionone {
+    display: flex;
+    position: absolute;
+    top: 363%;
+    left: 1%;
+    text-align: left;
+}
+
+.sec_a {
+    display: flex;
+    position: absolute;
+    text-align: left;
+    top: 325%;
+    right: 65%;
+    font-size: 38px
+}
+
+.tv {
+    position: absolute;
+    top: 300%;
+    left: 50%;
+
+}
+
+video {
+    position: absolute;
+    top: 14px;
+    right: 93px;
+    width: 461px;
+    z-index: -1;
+
 }
