@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -6,6 +8,8 @@
 
 body {
     background-color: black;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    ;
 }
 
 .logo {
@@ -18,7 +22,7 @@ body {
 
 }
 
-.main {
+.Section1 {
     background: linear-gradient(rgba(39, 41, 41, 0.5), rgba(5, 5, 5, 0.7)), url(bg.jpg);
     /* background-image: url("bg.jpg"); */
     background-position: center center;
@@ -27,6 +31,33 @@ body {
     height: 644px;
     position: relative;
 }
+
+.Section2 {}
+
+.Section3 {
+    position: absolute;
+    top: 436%;
+    left: -25%;
+}
+
+.Section4 {
+    position: absolute;
+    top: 670%;
+    left: 50%;
+
+}
+
+.Section5 {
+    position: absolute;
+    top: 908%;
+    left: -25%;
+}
+
+.Section6 {}
+
+.Section7 {}
+
+
 
 
 .nav {
@@ -61,13 +92,14 @@ H1 {
     justify-content: center;
     align-items: center;
     font-size: 50px;
-
+    font-family: 'Poppins', sans-serif;
 }
 
 .INFO {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 H2 {
@@ -86,18 +118,18 @@ H3 {
 
 .btn-c {
     display: flex;
-    gap: 20px;
+    gap: px;
 }
 
 .btn-ca {
-
     position: absolute;
+    left: 63%;
     font-size: 1.5rem;
     font-weight: 500;
-    width: 22%;
+    width: 25%;
     min-height: 3.5rem;
     padding: 0.75rem 1.5rem;
-    border-radius: 9px;
+    border-radius: 6px;
     background: rgb(229, 9, 20);
     color: rgb(255, 255, 255);
 }
@@ -116,11 +148,13 @@ H3 {
 
 .email {
     display: flex;
+    left: 130px;
     position: absolute;
-    right: 50%;
     border: 2px solid white;
-    padding: 15px 50px;
-    width: 33%;
+    padding: 12px;
+    font-size: 24px;
+    color: white;
+    width: 440px;
     min-height: 1.5rem;
     text-align: left;
     border-radius: 8px;
@@ -139,8 +173,8 @@ H3 {
 .sectionone {
     display: flex;
     position: absolute;
-    top: 363%;
-    left: 1%;
+    top: 300%;
+    left: 0%;
     text-align: left;
 }
 
@@ -148,14 +182,14 @@ H3 {
     display: flex;
     position: absolute;
     text-align: left;
-    top: 325%;
-    right: 65%;
+    top: 275%;
+    right: 67%;
     font-size: 38px
 }
 
 .tv {
     position: absolute;
-    top: 300%;
+    top: 245%;
     left: 50%;
 
 }
@@ -166,5 +200,135 @@ video {
     right: 93px;
     width: 461px;
     z-index: -1;
+
+}
+
+.Section4 video {
+    position: absolute;
+    top: 4%;
+    left: 19%;
+    height: 55%;
+    width: 63%;
+}
+
+.bordertwo {
+    right: -263px;
+    width: 215%;
+    height: 0.5rem;
+    position: absolute;
+    bottom: -50.5rem;
+    background-color: rgb(35, 35, 35);
+}
+
+
+
+.borderthree {
+    right: -263px;
+    width: 215%;
+    height: 0.5rem;
+    position: absolute;
+    bottom: -85.5rem;
+    background-color: rgb(35, 35, 35);
+}
+
+.borderfour {
+    right: -263px;
+    width: 215%;
+    height: 0.5rem;
+    position: absolute;
+    bottom: -120.5rem;
+    background-color: rgb(35, 35, 35);
+}
+
+.borderfive {
+    right: -263px;
+    width: 215%;
+    height: 0.5rem;
+    position: absolute;
+    bottom: -155.5rem;
+    background-color: rgb(35, 35, 35);
+}
+
+.bordersix {
+    right: -263px;
+    width: 215%;
+    height: 0.5rem;
+    position: absolute;
+    bottom: -210.5rem;
+    background-color: rgb(35, 35, 35);
+}
+
+
+
+.Frequently_Asked_Questions {
+    position: absolute;
+    top: 1120%;
+    left: 11%;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.questions {
+
+    position: absolute;
+    top: 1155%;
+    left: -10%;
+    font-size: 25px;
+    font-weight: 900;
+    width: 100%;
+}
+
+h2 {
+
+    display: flex;
+    padding: 20px;
+    padding-right: 319px;
+    margin: 0.5rem;
+    justify-content: left;
+    align-items: left;
+    font-size: 25px;
+    background-color: rgb(45, 45, 45);
+    width: 80%;
+
+}
+
+.text2 {
+    position: absolute;
+    top: 1370%;
+    left: 18%;
+}
+
+.btn-cb {
+    display: flex;
+    position: absolute;
+    top: 1400%;
+    left: 10%;
+
+
+}
+
+.btn-cbc {
+    position: absolute;
+    bottom: -5%;
+    left: 105%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 52%;
+    min-height: 3.5rem;
+    padding: 15px;
+    border-radius: 5px;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+}
+
+.email2 {
+    border: 2px solid white;
+    padding: 15px;
+    width: 440px;
+    min-height: 1.5rem;
+    text-align: left;
+    border-radius: 5px;
+    background-color: #0000008f;
+    color: white;
 
 }
