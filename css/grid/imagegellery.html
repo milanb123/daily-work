@@ -4,60 +4,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gellery
-    </title>
-    <style>
-        .main {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            gap: 10px;
-            background-color: #2196F3;
-            padding: 10px;
-        }
-
-        .GridA {
-            grid-column-start: 1;
-            grid-column-end: 3;
-            border: 2px solid black;
-            background: url(cheetah.jpeg);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-    </style>
+    <title>GRID</title>
 </head>
+<style>
+    .main {
+        display: inline-grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 230px);
+        gap: 10px;
+        border: 5px solid black;
+        background-color: black;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .grid1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .grid2 {
+        grid-row-start: 1;
+        grid-column-start: 3;
+        grid-row-end: 3;
+
+    }
+
+    .grid4 {
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+
+    .grid5 {
+
+        grid-row-start: 3;
+        grid-column-start: 2;
+        grid-row-end: 3;
+        grid-column-end: 5;
+
+    }
+</style>
 
 <body>
     <div class="main">
-        <div class="GridA">
-            <!-- <img src="cheetah.jpeg" alt=""> -->
-        </div>
-        <div class="GridB">
-            <img src="tiger.jpeg" alt="" class="src">
-        </div>
-        <div class="GridC">
-            <img src="leopard.jpeg" alt="" class="src">
-        </div>
-        <div class="GridD">
-            <img src="lion.jpeg" alt="" class="src">
-        </div>
-        <div class="GridE">
-            <img src="panda.jpeg" alt="" class="src">
-        </div>
-        <div class="GridF">
-            <img src="zebra.jpeg" alt="" class="src">
-        </div>
-        <div class="GridG">
-            <img src="rabbit.jpeg" alt="" class="src">
-        </div>
-        <div class="GridH">
-            <img src="deer.jpeg" alt="" class="src">
-        </div>
-        <div class="GridI">
-            <img src="kanaroos.jpeg" alt="" class="src">
+        <div class="grid1">
+            <img src="lion.jpeg" alt="">
         </div>
 
-
-
+        <div class="grid2">
+            <img src="deer.jpeg" alt="">
+        </div>
+        <div class="grid3">
+            <img src="rabbit.jpeg" alt="">
+        </div>
+        <div class="grid4">
+            <img src="elephent.jpeg" alt="">
+        </div>
+        <div class="grid5">
+            <img src="leopard.jpeg" alt="">
+        </div>
+        <div class="grid6">
+            <img src="zebra.jpeg" alt="">
+        </div>
+        <div class="grid7">
+            <img src="cheetah.jpeg" alt="">
+        </div>
 
     </div>
 </body>

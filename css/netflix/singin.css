@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+}
+
+.main {
+    background: linear-gradient(rgba(39, 41, 41, 0.5), rgba(5, 5, 5, 0.7)), url(bg.jpg);
+    background-position: center;
+    /* background-size: max(1200px, 85vw); */
+    background-repeat: no-repeat;
+    height: 700px;
+    /* width: 100%; */
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 23px;
+    left: 163px;
+    display: flex;
+    width: 155px;
+}
+
+.signinbox {
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 592px;
+    width: 430px;
+    border: 2px solid #0000007a;
+    box-shadow: 2px 2px 2px solid rgb(255, 255, 255);
+    background-color: #0000007a;
+
+}
+
+.signinbox h1 {
+    position: absolute;
+    top: 08%;
+    left: 10%;
+    color: solid white;
+}
+
+.signinbox H3 {
+    position: absolute;
+    top: 68%;
+    left: 46%;
+    font-weight: lighter;
+}
+
+.email {
+    position: absolute;
+    top: 30%;
+    width: 66%;
+    line-height: 1.5;
+    padding: 1.5rem 1rem 0.5rem;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+
+.pass {
+
+    width: 66%;
+    line-height: 1.5;
+    padding: 1.5rem 1rem 0.5rem;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+
+.signinbox button {
+    font-size: large;
+    text-align: center;
+    color: WHITE;
+    position: absolute;
+    width: 75%;
+    top: 60%;
+    line-height: 1.5;
+    padding: 0.5rem 1rem 0.5rem;
+    background-color: red;
+}
+
+.usebtn button {
+    font-size: large;
+    text-align: center;
+    color: WHITE;
+    position: absolute;
+    width: 75%;
+    left: 13%;
+    top: 78%;
+    line-height: 1.5;
+    padding: 0.5rem 1rem 0.5rem;
+    background-color: grey;
+}
