@@ -9,7 +9,7 @@
 body {
     background-color: black;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
-    
+
 }
 
 .logo {
@@ -34,6 +34,7 @@ body {
 
 
 .Section3 {
+    display: flex;
     position: absolute;
     top: 436%;
     left: -25%;
@@ -113,7 +114,7 @@ H1 {
 
 }
 
-H2 {
+.questions h2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -191,13 +192,13 @@ H3 {
     text-align: left;
 }
 
-.sectiontwo {
+/* .sectiontwo {
     top: 50%;
     position: absolute;
     font-size: larger;
     right: -92%;
     left: 103%;
-}
+} */
 
 .sectionthree {
     position: absolute;
@@ -227,23 +228,43 @@ H3 {
 
 .sec_b {
     display: flex;
-    /* flex-direction: initial; */
+    margin: auto;
+    padding: auto;
+    font-size: x-large;
+}
+
+.sec_b span {
     position: absolute;
-    /* text-align: left; */
-    top: 25%;
-    right: -102%;
-    left: 656px;
-    font-size: 38px;
+    top: 98px;
+    font-size: 30px;
+}
+
+.sec_b p {
+    font-size: x-large;
 }
 
 .sec_c {
     display: flex;
-    position: absolute;
-    text-align: left;
-    top: 100px;
-    left: -630px;
-    font-size: 38px;
+    margin: auto;
+    padding: auto;
+    font-size: x-large;
 }
+
+.sec_c span {
+    display: flex;
+    position: absolute;
+    margin-top: -375px;
+    margin-left: -570px;
+    font-size: 30px;
+}
+
+.sec_c p {
+    display: flex;
+    font-size: x-large;
+    margin-top: -320px;
+    margin-left: -570px;
+}
+
 
 .sec_d {
     display: flex;
@@ -345,17 +366,17 @@ video {
     width: 100%;
 }
 
-h2 {
+.questions h2 {
 
     display: flex;
     padding: 20px;
     padding-right: 319px;
     margin: 0.5rem;
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
     font-size: 25px;
     background-color: rgb(45, 45, 45);
-    width: 80%;
+    width: 50%;
 
 }
 

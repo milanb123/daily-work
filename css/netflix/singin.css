@@ -35,14 +35,15 @@ body {
     position: absolute;
     top: 15%;
     left: 34%;
+    border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 592px;
-    width: 430px;
+    width: 460px;
     border: 2px solid #0000007a;
     box-shadow: 2px 2px 2px solid rgb(255, 255, 255);
-    background-color: #0000007a;
+    background-color: #0000009c;
 
 }
 
@@ -55,26 +56,27 @@ body {
 
 .signinbox H3 {
     position: absolute;
-    top: 68%;
+    top: 53%;
     left: 46%;
     font-weight: lighter;
 }
 
 .email {
     position: absolute;
-    top: 30%;
-    width: 66%;
-    line-height: 1.5;
-    padding: 1.5rem 1rem 0.5rem;
+    top: 18%;
+    width: 68%;
+    line-height: 2.5;
+    padding: 0.5rem 1rem 0.5rem;
     background-color: transparent;
     color: rgb(255, 255, 255);
 }
 
 .pass {
-
-    width: 66%;
-    line-height: 1.5;
-    padding: 1.5rem 1rem 0.5rem;
+    position: absolute;
+    top: 30%;
+    width: 68%;
+    line-height: 2.5;
+    padding: 0.5rem 1rem 0.5rem;
     background-color: transparent;
     color: rgb(255, 255, 255);
 }
@@ -83,10 +85,11 @@ body {
     font-size: large;
     text-align: center;
     color: WHITE;
+    border-radius: 5px;
     position: absolute;
     width: 75%;
-    top: 60%;
-    line-height: 1.5;
+    top: 45%;
+    line-height: 1.2;
     padding: 0.5rem 1rem 0.5rem;
     background-color: red;
 }
@@ -95,11 +98,47 @@ body {
     font-size: large;
     text-align: center;
     color: WHITE;
+    border-radius: 8px;
     position: absolute;
     width: 75%;
     left: 13%;
-    top: 78%;
-    line-height: 1.5;
+    top: 58%;
+    line-height: 1.2;
     padding: 0.5rem 1rem 0.5rem;
-    background-color: grey;
+    background-color: rgba(101, 86, 86, 0.26);
+}
+
+.usebtn a {
+    position: absolute;
+    top: 68%;
+    left: 34%;
+    color: white;
+}
+
+.usebtn input {
+    position: absolute;
+    top: 76%;
+    left: 30%;
+    color: white;
+}
+
+.usebtn label {
+    position: absolute;
+    top: 75%;
+    left: 34%;
+    color: white;
+}
+
+.signup a {
+    position: absolute;
+    top: 80%;
+    left: 42%;
+}
+
+.signup h4 {
+    color: gray;
+    position: absolute;
+    top: 80%;
+    left: 15%;
+    font-weight: lighter;
 }
