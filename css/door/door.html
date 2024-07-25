@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .barhak {
+            height: 400px;
+            width: 200px;
+            margin: auto;
+            border: 2px solid black;
+            background-image: url(IMG_20240122_090313.jpg);
+            background-size: 100% 100%;
+            display: flex;
+        }
+
+        .door1 {
+            height: 400px;
+            width: 50%;
+            border: 2px solid black;
+            background-image: url(door.jpg);
+            background-size: 100% 100%;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            transition: 2s ease-in-out;
+        }
+
+        .door2 {
+            height: 400px;
+            width: 50%;
+            border: 2px solid black;
+            background-image: url(door.jpg);
+            background-size: 100% 100%;
+            display: flex;
+            align-items: center;
+            transition: 2s ease-in-out;
+        }
+
+        .kundi1 {
+            height: 18px;
+            width: 18px;
+            border: 2px solid black;
+            border-radius: 50%;
+            text-align: center;
+
+
+        }
+
+        .kundi2 {
+            height: 18px;
+            width: 18px;
+            border: 2px solid black;
+            border-radius: 50%;
+            text-align: center;
+
+        }
+
+        .bell {
+            display: flex;
+            margin: auto;
+            border: 2px solid black;
+            text-align: center;
+            height: 20px;
+            width: 10px;
+        }
+
+        .door1:hover {
+            transform: perspective(300px) rotateY(90deg);
+            transform-origin: left;
+        }
+
+        .door2:hover {
+            transform: perspective(300px) rotateY(-90deg);
+            transform-origin: right;
+        }
+
+        .bell:hover {}
+    </style>
+</head>
+
+
+<body>
+    <div class="barhak">
+        <div class="door1">
+            <div class="kundi1">
+                M
+            </div>
+        </div>
+        <div class="door2">
+            <div class="kundi2">
+                P
+            </div>
+
+        </div>
+    </div>
+    <div class="bell">
+        D
+    </div>
+
+</body>
+
+</html>
