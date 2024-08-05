@@ -9,7 +9,7 @@
     <style>
         .barhak {
             height: 400px;
-            width: 200px;
+            width: 400px;
             margin: auto;
             border: 2px solid black;
             background-image: url(IMG_20240122_090313.jpg);
@@ -26,7 +26,9 @@
             display: flex;
             align-items: center;
             justify-content: end;
-            transition: 2s ease-in-out;
+            transition: transform 2s;
+            transform-origin: left;
+
         }
 
         .door2 {
@@ -37,7 +39,8 @@
             background-size: 100% 100%;
             display: flex;
             align-items: center;
-            transition: 2s ease-in-out;
+            transition: 2s;
+            transform-origin: right;
         }
 
         .kundi1 {
@@ -59,26 +62,16 @@
 
         }
 
-        .bell {
-            display: flex;
-            margin: auto;
-            border: 2px solid black;
-            text-align: center;
-            height: 20px;
-            width: 10px;
-        }
+
 
         .door1:hover {
-            transform: perspective(300px) rotateY(90deg);
-            transform-origin: left;
+            transform: perspective(300px) rotateY(140deg);
         }
 
         .door2:hover {
-            transform: perspective(300px) rotateY(-90deg);
-            transform-origin: right;
-        }
+            transform: perspective(300px) rotateY(-140deg);
 
-        .bell:hover {}
+        }
     </style>
 </head>
 
@@ -97,9 +90,7 @@
 
         </div>
     </div>
-    <div class="bell">
-        D
-    </div>
+
 
 </body>
 
