@@ -1,0 +1,679 @@
+* {
+    position: relative;
+    width: auto;
+    height: auto;
+    @media only screen and (max-width: 600px);
+}
+
+
+.header {
+    /* team.flow */
+
+    position: absolute;
+    width: 92px;
+    height: 24px;
+    left: 165px;
+    top: 60px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: -0.06em;
+    color: #1D2830;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header h4 {
+    position: absolute;
+    width: 92px;
+    height: 24px;
+    left: 8px;
+    top: 16px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 35px;
+    line-height: 24px;
+    letter-spacing: -0.06em;
+    color: #1D2830;
+
+}
+
+.header .a {
+    /* how it work */
+    position: absolute;
+    width: 100px;
+    height: 16px;
+    left: 490px;
+    top: 64px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #35414B;
+}
+
+.header .b {
+    /* Product */
+
+    position: absolute;
+    width: 60px;
+    height: 16px;
+    left: 647px;
+    top: 64px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    color: #35414B;
+
+
+
+}
+
+.header .c {
+    /* Pricing */
+
+    position: absolute;
+    width: 52px;
+    height: 16px;
+    left: 767px;
+    top: 64px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    color: #35414B;
+
+
+
+}
+
+.header .d {
+    /* Resources */
+
+    position: absolute;
+    width: 79px;
+    height: 16px;
+    left: 858px;
+    top: 64px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    color: #35414B;
+
+
+
+
+}
+
+.box1 {
+    /* Rectangle 20 */
+
+    position: absolute;
+    width: 108px;
+    height: 32px;
+    left: 578px;
+    top: 196px;
+
+    background: #81C43B;
+    border-radius: 100px;
+
+}
+
+.box1 h4 {
+    /* Save 90% */
+
+    position: absolute;
+    width: 76px;
+    height: 16px;
+    left: 4px;
+    top: -10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    color: #ffffff;
+
+
+}
+
+
+
+.box2 {
+    /* Rectangle 15 */
+
+    position: absolute;
+    width: 209px;
+    height: 32px;
+    left: 654px;
+    top: 196px;
+
+    background: #F2F9EB;
+    border-radius: 0px 100px 100px 0px;
+
+}
+
+.box2 h4 {
+    /* Save 90% */
+    position: absolute;
+    width: 140px;
+    height: 16px;
+    left: 20px;
+    top: -15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 17px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.box3 {
+    /* Manage the team everyone wants to be on */
+
+    position: absolute;
+    width: 760px;
+    height: 144px;
+    left: 340px;
+    top: 252px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    /* or 112% */
+    text-align: center;
+
+    color: #35414B;
+
+
+}
+
+.box4 {
+    /* Simple platform that lets you master what great managers do best, as develop trust, collaborate, and drive team performance. */
+
+    position: absolute;
+    width: 505px;
+    height: 48px;
+    left: 467px;
+    top: 420px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    text-align: center;
+
+    color: #4E5A65;
+
+
+}
+
+.box5 {
+    /* Rectangle 16 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 319px;
+    height: 52px;
+    left: 480px;
+    top: 492px;
+
+    background: #FFFFFF;
+    border: 1px solid #E1E5EA;
+    border-radius: 4px 0px 0px 4px;
+
+}
+
+.box5 input {
+    width: 98%;
+    height: 47px;
+    position: absolute;
+    top: -22px;
+}
+
+/* .btn {
+    /* Rectangle 17 
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 164px;
+    height: 52px;
+    left: 795px;
+    top: 492px;
+    text-align: center;
+   
+
+} */
+
+.btn button {
+    /* Try it free */
+
+    position: absolute;
+    width: 165px;
+    height: 52px;
+    left: 799px;
+    top: 492px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    background: #794CFF;
+    border: 1px solid #794CFF;
+    border-radius: 0px 4px 4px 0px;
+
+}
+
+.btn button a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+
+
+
+.box6 {
+    /* Graph 2 1 */
+
+    position: absolute;
+    width: 920px;
+    height: 654.29px;
+    left: 299px;
+    top: 579px;
+
+    background: url();
+    box-shadow: 0px 0px 48px -8px rgba(29, 40, 48, 0.18);
+
+}
+
+.box6 img {
+    width: 920px;
+    height: 654.29px;
+    top: 0px;
+    left: 7px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.box7 {
+    /* TRUSTED BY OVER 10.000+ WORLD’S BEST TEAMS */
+
+    position: absolute;
+    width: 397px;
+    height: 16px;
+    left: 522px;
+    top: 1347px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    text-align: center;
+
+    color: #4E5A65;
+
+
+}
+
+.google {
+    /* google-2015a 1 */
+
+    position: absolute;
+    width: 80px;
+    height: 26.11px;
+    left: 250px;
+    top: 1387px;
+
+
+}
+
+.box8 {
+    /* Rectangle 24 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1505px;
+    height: 640px;
+    left: -33px;
+    top: 1514px;
+
+    background: #FBFAFE;
+    border: 1px solid #F0EBFA;
+
+}
+
+.box8 img {
+    /* Group 25 */
+
+    position: absolute;
+    width: 657px;
+    height: 518px;
+    left: 165px;
+    top: 60px;
+
+
+}
+
+.box9 {
+    /* Make your work easier */
+
+    position: absolute;
+    width: 436px;
+    height: 40px;
+    left: 501px;
+    top: 2254px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    /* identical to box height, or 100% */
+    text-align: center;
+    color: #35414B;
+
+
+}
+
+.log1 {
+    /* Group 21 */
+
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 165px;
+    top: 2350px;
+
+
+}
+
+.log1 .a {
+    /* Ellipse 2 
+
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 165px;
+    top: 2350px;
+
+    background: #FEF6EE;
+
+
+
+*/
+
+}
+
+.log2 {
+    /* Group 19 */
+
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 591px;
+    top: 2350px;
+
+
+}
+
+.log3 {
+    /* Group 20 */
+
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 953px;
+    top: 2350px;
+
+
+}
+
+.log4 {
+    /* Group 22 */
+
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 165px;
+    top: 2592px;
+
+}
+
+.lopg5 {
+    /* Group 23 */
+
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 591px;
+    top: 2592px;
+
+}
+
+.log6 {
+    /* Group 24 */
+
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 953px;
+    top: 2592px;
+
+}
+
+
+
+.box10 h3 {
+    /* We work how you work everyday */
+
+    position: absolute;
+    width: 341px;
+    height: 96px;
+    left: 165px;
+    top: 75px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    /* or 120% */
+
+    color: #35414B;
+
+
+}
+
+.box10 {
+    /* Rectangle 33 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1505px;
+    height: 540px;
+    left: -33px;
+    top: 2854px;
+
+    background: #FBFAFE;
+    border: 1px solid #F0EBFA;
+
+}
+
+.box10 h4 {
+    /* Since the easiest things to use actually get used, we adapts to the way your team works – not the other way around. */
+
+    position: absolute;
+    width: 413px;
+    height: 72px;
+    left: 165px;
+    top: 200px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    color: #4E5A65;
+
+
+}
+
+.box10 img {
+    /* Group 26 */
+
+    position: absolute;
+    width: 596.39px;
+    height: 404.68px;
+    left: 668px;
+    top: 75px;
+
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 1519px;
+    height: 417px;
+    top: 4282px;
+    left: -8px;
+    gap: 0px;
+    opacity: 0px;
+    background: #1D2830;
+
+
+}
+
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer .company {
+    /* Company */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    gap: 25px;
+    width: auto;
+    height: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #FFFFFF;
+
+
+
+
+
+}
+
+.footer .support {
+    /* support */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    gap: 25px;
+    width: auto;
+    height: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #FFFFFF;
+
+
+}
+
+.footer .legal {
+    /* Company */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    gap: 25px;
+    width: auto;
+    height: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #FFFFFF;
+
+
+}
+
+.footer .app {
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 80px;
+}
+
+.footer .line {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 65.28%;
+    bottom: 35.7%;
+    background: #FFFFFF;
+    opacity: 1.1;
+
+}
+
+.footer.media {
+    position: absolute;
+    top: 300px;
+    display: flex;
+    gap: 14px;
+    left: 1135px;
+
+}

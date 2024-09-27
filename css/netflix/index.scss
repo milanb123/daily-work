@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.logo {
+    position: absolute;
+    top: 23px;
+    left: 163px;
+    display: flex;
+    width: 155px;
+}
+
+.Section1 {
+    background: linear-gradient(rgba(39, 41, 41, 0.5), rgba(5, 5, 5, 0.7)), url(bg.jpg);
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+}
+
+.Section3,
+.Section5,
+.Section7 {
+    display: flex;
+    position: absolute;
+
+    &.Section3 {
+        top: 436%;
+        left: -25%;
+    }
+
+    &.Section5 {
+        top: 908%;
+        left: -25%;
+    }
+
+    &.Section7 {
+        top: 1484%;
+        left: 0%;
+    }
+}
+
+.Section4 {
+    position: absolute;
+    top: 670%;
+    left: 50%;
+}
+
+.nav {
+    display: flex;
+    position: absolute;
+    top: 2%;
+    right: 10%;
+    justify-content: end;
+    margin-right: 60px;
+    padding: 20px;
+    gap: 20px;
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        color: white;
+        background-color: red;
+        border-radius: 4px;
+        height: 33px;
+        text-decoration: none;
+    }
+}
+
+.btn {
+    line-height: 1.25rem;
+    padding: 0.375rem 24px 6px 36px;
+    background-color: #0000008f;
+    color: white;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3,
+.questions h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.INFO {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    left: 20%;
+    top: 35%;
+    font-weight: bolder;
+    color: white;
+}
+
+.email {
+    display: flex;
+    position: absolute;
+    left: 130px;
+    border: 2px solid white;
+    padding: 12px;
+    font-size: 24px;
+    color: white;
+    width: 440px;
+    min-height: 1.5rem;
+    text-align: left;
+    border-radius: 8px;
+    background-color: #0000008f;
+}
+
+.border {
+    position: absolute;
+    right: -263px;
+    width: 215%;
+    height: 0.5rem;
+    background-color: rgb(35, 35, 35);
+
+    &.borderone {
+        bottom: -15.5rem;
+    }
+
+    &.bordertwo {
+        bottom: -50.5rem;
+    }
+
+    &.borderthree {
+        bottom: -85.5rem;
+    }
+
+    &.borderfour {
+        bottom: -120.5rem;
+    }
+
+    &.borderfive {
+        bottom: -155.5rem;
+    }
+
+    &.bordersix {
+        bottom: -210.5rem;
+    }
+}
+
+.sectionone {
+    display: flex;
+    position: absolute;
+    top: 300%;
+    left: -4%;
+    font-size: larger;
+    text-align: left;
+}
+
+.sectionthree {
+    position: absolute;
+    left: -98%;
+    top: 35%;
+    font-size: large;
+}
+
+.sectionfour {
+    position: absolute;
+    top: 26%;
+    right: -108%;
+    left: 130%;
+    font-size: larger;
+}
+
+.sec {
+    &.sec_a {
+        display: flex;
+        position: absolute;
+        text-align: left;
+        top: 275%;
+        left: -42px;
+        right: 63%;
+        font-size: 38px;
+    }
+
+    &.sec_b,
+    &.sec_c {
+        display: flex;
+        margin: auto;
+        padding: auto;
+        font-size: x-large;
+
+        span {
+            position: absolute;
+            font-size: 30px;
+
+            &.sec_b-span {
+                top: 98px;
+            }
+
+            &.sec_c-span {
+                margin-top: -375px;
+                margin-left: -570px;
+            }
+        }
+
+        p {
+            font-size: x-large;
+        }
+
+        &.sec_c p {
+            display: flex;
+            margin-top: -320px;
+            margin-left: -570px;
+        }
+    }
+}
+
+.sec_d {
+    display: flex;
+    position: absolute;
+    text-align: left;
+    top: 65px;
+    right: -632px;
+    font-size: 38px;
+}
+
+.tv {
+    position: absolute;
+    top: 245%;
+    left: 50%;
+}
+
+video {
+    position: absolute;
+    top: 14px;
+    right: 93px;
+    width: 461px;
+    z-index: -1;
+
+    &.Section4-video {
+        top: 4%;
+        left: 19%;
+        height: 55%;
+        width: 63%;
+    }
+}
+
+.Frequently_Asked_Questions {
+    position: absolute;
+    top: 1120%;
+    left: 11%;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.questions {
+    position: absolute;
+    top: 1155%;
+    left: -15%;
+    font-size: 25px;
+    font-weight: 900;
+    width: 100%;
+
+    h2 {
+        display: flex;
+        padding: 20px;
+        margin: 0.5rem;
+        margin-left: 162px;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        background-color: rgb(45, 45, 45);
+        width: 90%;
+    }
+}
+
+.text2 {
+    position: absolute;
+    top: 1370%;
+    left: 18%;
+}
+
+.btn-cb {
+    display: flex;
+    position: absolute;
+    top: 1400%;
+    left: 10%;
+
+    .btn-cbc {
+        position: absolute;
+        bottom: -5%;
+        left: 105%;
+        font-size: 1.5rem;
+        font-weight: 500;
+        width: 52%;
+        padding: 11px;
+        border-radius: 5px;
+        background: rgb(229, 9, 20);
+        color: rgb(255, 255, 255);
+    }
+}
+
+.email2 {
+    border: 2px solid white;
+    padding: 15px;
+    width: 440px;
+    min-height: 1.5rem;
+    text-align: left;
+    border-radius: 5px;
+    background-color: #0000008f;
+    color: white;
+}
+
+table {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-align: left;
+    width: auto;
+    font-weight: lighter;
+
+    tr {
+        height: 50px;
+        font-size: initial;
+    }
+
+    a {
+        color: white;
+        padding: 34px;
+        word-spacing: 2px;
+    }
+}
