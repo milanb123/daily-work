@@ -1088,6 +1088,8 @@
         left: 100px;
         top: 750px;
         font-size: small;
+        width: auto;
+
     }
 
     .socialmedia {
@@ -1202,6 +1204,7 @@
     .box9 {
         display: flex;
         position: absolute;
+        width: auto;
         top: 2000px;
         left: 80px;
         font-size: 35px;
@@ -1266,7 +1269,7 @@
         display: flex;
         position: absolute;
         font-size: 35px;
-        left: 120px;
+        left: 110px;
     }
 
     .box10 .abc h4 {
@@ -1281,7 +1284,7 @@
     .box10 button {
         position: absolute;
         top: 400px;
-        left: 150px;
+        left: 110px;
     }
 
     .box11 :nth-child(1) {
@@ -1416,7 +1419,7 @@
     .footer a {
 
         display: flex;
-        left: 50px;
+        left: 20px;
         gap: 10px;
 
     }
