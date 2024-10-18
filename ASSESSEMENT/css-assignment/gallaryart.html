@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallary</title>
+    <style>
+      img {
+        height: 100%;
+        width: 100%;
+      }
+
+      .main {
+        border: 2px solid black;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 230px);
+        gap: 10px;
+        display: inline-grid;
+      }
+
+      .grid1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+      }
+
+      .grid2 {
+        grid-row-start: 1;
+        grid-column-start: 3;
+        grid-row-end: 3;
+        /* grid-column-end: 4; */
+      }
+
+      .grid3 {
+        grid-column-start: 4;
+        grid-column-end: 5;
+      }
+
+      .grid4 {
+        grid-row-start: 2;
+        grid-row-end: 4;
+      }
+
+      .grid5 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+      }
+
+      .grid6 {
+        grid-column-start: 4;
+        grid-column-end: 5;
+      }
+
+      .grid7 {
+        grid-column-start: 2;
+        grid-column-end: 5;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="grid1">
+        <img src="wallpaper.jpg" alt="" />
+      </div>
+      <div class="grid2">
+        <img src="wallpaper1.jpg" alt="" />
+      </div>
+      <div class="grid3">
+        <img src="wallpaper2.jpg" alt="" />
+      </div>
+      <div class="grid4">
+        <img src="wallpaper3.jpg" alt="" />
+      </div>
+      <div class="grid5">
+        <img src="wallpaper4.jpg" alt="" />
+      </div>
+      <div class="grid6">
+        <img src="wallpaper5.jpg" alt="" />
+      </div>
+      <div class="grid7">
+        <img src="wallpaper6.jpg" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
