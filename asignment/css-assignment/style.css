@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.main {
+
+    padding: 12px;
+    display: flex;
+
+}
+
+.main-1 {
+
+    padding: 12px;
+    display: flex;
+}
+
+.box {
+
+    height: 300px;
+    width: 400px;
+    border: 1px solid rgb(17, 17, 17);
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.box-1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: rgb(49, 48, 48);
+    color: white;
+    line-height: 1px;
+
+}
+
+.box-main-1 {
+    margin-left: 12px;
+    height: 300px;
+    width: 400px;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box-main-2 {
+
+    margin-left: 12px;
+    height: 300px;
+    width: 400px;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.box-main-3 {
+
+    margin-left: 12px;
+    height: 300px;
+    width: 400px;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.box-main-4 {
+    height: 300px;
+    width: 400px;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.box-main-5 {
+    height: 300px;
+    width: 400px;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.box-2 {
+    padding: 15px;
+    padding-top: 20px;
+    line-height: 20px;
+}
+
+.button {
+    padding: 1px 15px;
+
+}
+
+.v-1 {
+    height: 24px;
+    width: 10vh;
+}
+
+.e-1 {
+
+    height: 24px;
+    width: 7vh;
+    position: relative;
+}
+
+span {
+    font-size: small;
+    position: relative;
+    left: 155px;
+
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+</head>
+
+<body>
+        <div id="my"></div>
+
+        <script>
+                // length : to find length of array
+                // var std = ['kiran', 'viral', 'vijay', 'krishna']
+                // console.log(std.length);
+==============================================================================================
+        // push : to add element at last of array
+        // std.push('manoj');
+        // std.push('shubhash', 'viral');
+        // console.log(std);
+================================================================================================
+        // pop : to remove element from last of array
+        // var poppedElement = std.pop();
+        // console.log(std);
+        // console.log(poppedElement);
+===============================================================================================
+
+        // unshift : to add element at first of array
+        // std.unshift('bhadresh');
+        // console.log(std);
+===============================================================================================
+        // shift : to remove element from first of array
+        // var shiftedElement = std.shift();
+        // console.log(std);
+        // console.log(shiftedElement);
+===============================================================================================
+        //splice : to remove element from first of array , replace element from array
+        // var std = ['kiran', 'viral', 'vijay', 'krishna']
+        // std.splice(1, 1, 'bbb')
+        // console.log(std);
+=========================================================================================================
+        // array methods list
+        // slice : use for cut array
+        // var s = std.slice(0, 2)
+        // console.log(s);
+==========================================================================================================
+        // concat: joint array
+        // var array2 = ['hello', 'hii']
+        // var newArray = std.concat(array2)
+        // console.log(newArray);
+==========================================================================================================
+        // join : for convert array to string
+        // var names = ['bbb', 'uuu', 'mmm']
+        // var n = names.join('/')
+        // console.log(n);
+==========================================================================================================
+        // forEach
+        //var names = ['bbb', 'uuu', 'mmm']
+        // document.getElementById('my').appendChild('<h1>hii</h1>')
+        // names.forEach((value) => {
+        //     let li = document.createElement('li')
+        //     li.textContent = value
+        //     document.getElementById('my').append(li)
+        // })
+==========================================================================================================
+        // map : for create new array using existing array
+        var std = [
+            { name: "bbb", age: 20, marks: 40 },
+
+            { name: "bhadresh", age: 25, marks: 50 }
+        ]
+        // higher order function
+        var newStd = std.map((result) => {
+            if (result.name == "bhadresh") {
+                return { name: result.name + ' bavaliya', age: result.age + 5, marks: result.marks + 20 }
+            } else {
+                return result
+            }
+
+        })
+        console.log(newStd);
+===================================================================================================================
+        // filter
+        // var voters = [
+        //{ name: 'bbb', age: 20, come: true },
+        // { name: 'bbb', age: 20, come: true },
+        // { name: 'bbb', age: 18, come: false },
+        // { name: 'bbb', age: 18, come: false },
+        // { name: 'bbb', age: 15, come: true }
+        //]
+
+        // var actuallVoters = voters.filter((result) => {
+        //     return result.age >= 18 && result.come == true
+        // })
+        // console.log(actuallVoters);
+====================================================================================================================
+        // reduce
+        // reduceRight
+
+====================================================================================================================
+        // indexOf
+        // var names = ['bbb', 'uuu', 'mmm', 'uuu']
+        // var index = names.indexOf('uuu')
+        // console.log(index);
+        // lastIndexOf
+        // includes
+        // var names = ['bbb', 'uuu', 'mmm']
+        // var bbb = names.includes('bbb')
+        // console.log(bbb); // true
+===============================================================================================================
+        // sort
+        // var std = ['yyy', 'jj', 'kk', 'oo']
+        // // std.sort((a, b) => a - b)
+        // std.sort((a,b)=> b.localeCompare(a))
+        // console.log(std); // [10, 20, 40, 50]
+=================================================================================================================
+        // reverse
+        // var std = ['kiran', 'viral', 'vijay', 'krishna']
+        // std.reverse()
+        // console.log(std); // [ 'krishna', 'vijay', 'viral', 'kiran' ]
+
+====================================================================================================================
+        // toString
+        // var std = ['kiran', 'viral', 'vijay', 'krishna']
+        // console.log(std.toString()); // kiran,viral,vijay,krishna
+======================================================================================================================
+        // find
+        // var std = ['kiran', 'viral', 'vijay', 'krishna']
+        // var findStd = std.find((value) => {
+        //     return value == 'viral'
+        // })
+        // console.log(findStd);
+
+        // const numbers = [10, 20, 30, 40, 50];
+
+        // // Find the first number greater than 25
+        // const found = numbers.find(num => num > 25);
+
+        // console.log(found); // Output: 30
+
+======================================================================================================================
+        // join : array to string convert using join
+        // var std = ['kiran', 'viral', 'vijay', 'krishna']
+        // console.log(std.join('-')); // kiran-viral-vijay-krishna
+        // var s = std.join('--')
+        // console.log(s);
+==========================================================================================
+
+function ni andar function call thata hoy tene higher order function kahevay
+===========================================================================================
+        </script>
+</body>
+
+</html>

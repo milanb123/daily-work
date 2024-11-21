@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1 id="time">
+
+    </h1>
+    <script>
+        setInterval(() => {
+            var time = new Date()
+            // get current day name , month name and date with time 
+            let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', time: 'numeric' };
+
+            console.log(time.toLocaleString('en-US', options)); // "Sunday, October 2, 2024"
+            document.getElementById("time").innerHTML = time.toLocaleTimeString('en-US', options)
+        }, 1000);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!-- 1. Selectors
+Task: Write CSS that targets specific elements in an HTML page.
+
+Use basic selectors (e.g., p, h1, div). *
+Use class and ID selectors (e.g., .class-name, #id-name). *
+Use advanced selectors like descendant, child, attribute, and pseudo-class selectors. 
+Question: How can you apply styles to all <p> tags inside a <div> with a specific class?
+ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 1</title>
+
+    <style>
+        .class1 {
+            padding: 10px;
+            height: auto;
+            width: auto;
+            border: 2px solid black;
+            box-shadow: 2px black;
+        }
+
+        .class1 h1::first-letter {
+            color: red;
+            font-size: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="class1">
+        <h1>it's lorem </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet molestias, fugiat ad, praesentium inventore
+            atque fugit quasi id sapiente quos veritatis neque ipsa accusamus quaerat quibusdam voluptate a architecto
+            culpa.</p>
+    </div>
+
+    <div class="class2">
+        <p id="second">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ipsa reiciendis molestias esse
+            cupiditate, expedita suscipit, atque aliquam sed necessitatibus nostrum nulla id quam. Necessitatibus.
+        </p>
+    </div>
+
+</body>
+
+</html>

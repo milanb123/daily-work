@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colordepth</title>
+</head>
+
+<body>
+    <p id="colordepth"></p>
+    <p id="pixeldepth"></p>
+    <p id="location"></p>
+    <p id="host"></p>
+    <p id="pathname"></p>
+    <p id="protocol"></p>
+    <p id="port"></p>
+    <p id="assign"></p>
+    <p id="internetdetect"></p>
+
+
+
+    <script>
+
+        document.getElementById("colordepth").innerHTML =
+            "Screen color depth is " + screen.colorDepth;
+
+        document.getElementById("pixeldepth").innerHTML =
+            "Screen Pixel Depth: " + screen.pixelDepth;
+
+        document.getElementById("location").innerHTML =
+            "location is " + window.location.href;
+
+        document.getElementById("host").innerHTML =
+            "Host name is " + window.location.hostname;
+
+        document.getElementById("pathname").innerHTML =
+            "file path is " + window.location.pathname;
+
+        document.getElementById("protocol").innerHTML =
+            "protocol is " + window.location.protocol;
+
+        document.getElementById("port").innerHTML =
+            "Port number is " + window.location.port;
+        document.getElementById("internetdetect").innerHTML =
+            "you are " + navigator.onLine;
+
+
+
+    </script>
+</body>
+
+</html>
