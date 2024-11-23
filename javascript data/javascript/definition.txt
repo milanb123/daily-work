@@ -102,3 +102,6 @@ array methods list
         function resizeWin() {
             myWindow.resizeTo(300, 300);
         }
+
+event:
+mouse keybord thi koi function call karie chhie tene event kahevay

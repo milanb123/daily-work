@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>events</title>
+</head>
+
+<body>
+
+    <!-- MOUSE EVENTS -->
+    <h1>MOUSE EVENT</h1>
+    <h3>click event</h3>
+    <button id="click">click me </button><br>
+    <h3>double click</h3>
+    <button id="dblclick">click me</button><br>
+    <h3>Mouse down</h3>
+    <button id="mousedown">Click via mouse</button><br>
+    <h3>Mouse up</h3>
+    <button id="mouseup">click</button><br>
+    <h3>Mouse move</h3>
+    <button id="mousemove">click</button><br>
+    <h3>Mouse enter</h3>
+    <button id="mouseenter">enter</button><br>
+    <h3>Mouse leave</h3>
+    <button id="mouseleave">go away</button>
+
+    <!-- KEYBORD EVENTS -->
+    <h1>KEYBORD EVENT</h1>
+    <h3>KEY DOWN</h3>
+    <input type="text" id="keydown" placeholder="Type somthing">
+    <h3>KEY PRESS</h3>
+    <input type="text" id="keypress" placeholder="Type Somthing">
+    <h3>KEY UP</h3>
+    <input type="text" id="keyup" placeholder="Type Somthing">
+
+    <!-- FORM EVENTS -->
+    <h1>FORM EVENT</h1>
+    <h3>submit event</h3>
+    <form id="form_event">
+        <input type="text" id="name" placeholder="Enter Your Name"><br><br>
+        <button type="submit">Submit</button><br><br>
+
+        <label for="country">Select a country:</label>
+        <select id="country">
+            <option value="HINDUSTAN">HINDUSTAN</option>
+            <option value="BHARAT">BHARAT</option>
+            <option value="AARYVRAT">AARYVRAT</option>
+            <option value="INDIA">INDIA</option>
+
+
+        </select>
+
+    </form>
+
+
+    <script>
+        /* MOUSE EVENTS */
+
+        const button = document.getElementById('click');
+        button.addEventListener('click', () => {
+            alert("event successfully run")
+        })
+
+        const dblclick = document.getElementById('dblclick');
+        dblclick.addEventListener('dblclick', () => {
+            alert("event successfully run")
+        })
+
+        const mousedown = document.getElementById('mousedown');
+        mousedown.addEventListener('mousedown', () => {
+            alert("event succefull run")
+        })
+
+        const mouseup = document.getElementById('mouseup');
+        mouseup.addEventListener('mouseup', () => {
+            alert("event successfull run")
+        })
+
+        const mousemove = document.getElementById('mousemove');
+        mousemove.addEventListener('mousemove', () => {
+            alert("event successfull run")
+        })
+
+        const mouseenter = document.getElementById('mouseenter');
+        mouseenter.addEventListener('mouseenter', () => {
+            alert("event run successfull run")
+        })
+        const mouseleave = document.getElementById('mouseleave');
+        mouseleave.addEventListener('mouseleave', () => {
+            alert("event run successfull run")
+        })
+
+        /*KEYBORD EVENTS*/
+        const inputa = document.getElementById('keydown');
+        inputa.addEventListener('keydown', (event) => {
+            alert(`key pressed:${event.key}`)
+        })
+
+        const inputb = document.getElementById('keypress');
+        inputb.addEventListener('keypress', (event) => {
+            alert(`key pressed:${event.key}`)
+        })
+
+        const inputc = document.getElementById('keyup');
+        inputc.addEventListener('keyup', (event) => {
+            alert(`key up:${event.key}`)
+        })
+
+        /*FORM EVENTS*/
+        const forma = document.getElementById('form_event');
+        forma.addEventListener('submit', (event) => {
+            alert("form submited:")
+        })
+
+        const select = document.getElementById('country');
+        select.addEventListener('change', (event) => {
+            alert("value changed")
+        })
+
+
+    </script>
+
+</body>
+
+</html>
